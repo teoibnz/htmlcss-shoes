@@ -53,10 +53,6 @@ ul.menu li{
 
 h1.claim-text{
     font-size: 50px;
-    position: absolute;
-    left: 50%;
-    top: 85%;
-    transform: translate(-50%, -85%);
     text-transform: uppercase;
     text-align: center;
     padding: 30px;
@@ -68,4 +64,13 @@ h1.claim-text{
 
 #green-text{
     color: green;
+}
+
+.claim{
+    height: 100px;
+    width: 1000px;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, -85%);
 }
