@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Alfa Slab One', cursive;
+    /* font-family: 'Open Sans', sans-serif; */
 }
 
 
@@ -19,7 +20,7 @@ ul.menu li{
     list-style: none;
     display: inline-block;
     margin-left: 30px;
-    font-size: 40px;
+    font-size: 30px;
     border: 2px black solid;
     width: 50px;
     border-radius: 50%;
@@ -59,7 +60,7 @@ ul.menu li{
 }
 
 h1.claim-text{
-    font-size: 50px;
+    font-size: 40px;
     text-transform: uppercase;
     text-align: center;
     padding: 30px;
