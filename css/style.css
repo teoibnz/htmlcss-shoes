@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+
+a{
+    text-decoration: none;
+}
 .clearfix::after{
     content: "";
     display: table;
@@ -16,10 +20,13 @@ ul.menu li{
     display: inline-block;
     margin-left: 30px;
     font-size: 40px;
-    border: 1px black solid;
+    border: 2px black solid;
     width: 50px;
     border-radius: 50%;
     text-align: center;
+    background-color: white;
+    margin: 30px;
+    overflow: visible;
 
 }
 
@@ -68,9 +75,10 @@ h1.claim-text{
 
 .claim{
     height: 100px;
-    width: 1000px;
+    width: 600px;
     position: absolute;
     left: 50%;
     top: 85%;
     transform: translate(-50%, -85%);
+    margin-top: 20px;
 }
